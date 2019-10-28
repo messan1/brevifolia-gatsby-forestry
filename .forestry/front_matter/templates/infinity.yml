@@ -1,4 +1,14 @@
 ---
 label: infinity
 hide_body: false
-fields: []
+fields:
+- name: hello
+  type: text
+  config:
+    required: false
+  label: hello
+- name: page_content
+  type: include
+  config: {}
+  template: blog-post
+  label: page content
