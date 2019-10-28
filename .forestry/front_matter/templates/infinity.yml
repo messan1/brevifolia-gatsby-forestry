@@ -15,5 +15,15 @@ fields:
   config:
     min: 
     max: 
+- name: menu
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: infinity
+  label: menu
 pages:
 - content/pages/infinity.md
