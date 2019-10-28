@@ -2,13 +2,16 @@
 label: infinity
 hide_body: false
 fields:
-- name: hello
+- name: titre
   type: text
   config:
     required: false
-  label: hello
-- name: page_content
-  type: include
-  config: {}
-  template: blog-post
-  label: page content
+  label: titre
+- name: content
+  type: blocks
+  label: content
+  template_types:
+  - blog-post
+  config:
+    min: 
+    max: 
